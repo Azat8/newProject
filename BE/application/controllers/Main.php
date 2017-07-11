@@ -14,4 +14,9 @@ class Main extends CI_Controller {
         $this->load->model('main_model');
         echo $this->main_model->test_main();
     }
+
+    public function form_validation()
+    {
+
+    }
 }
